@@ -18,7 +18,7 @@ struct ContentView: View {
                     rectangle
                         .foregroundStyle(.red)
                 }
-
+                
                 Button {
                     viewModel.didTapButtonOne(with: .yellow)
                 } label: {
@@ -32,6 +32,17 @@ struct ContentView: View {
                     rectangle
                         .foregroundStyle(.purple)
                 }
+                
+                Button {
+                    viewModel.didTapButtonOne(with: nil)
+                } label: {
+                    rectangle
+                        .foregroundStyle(.gray.opacity(0.5))
+                        .overlay {
+                            Text("None")
+                                .bold()
+                        }
+                }
             }
             
             HStack {
@@ -41,7 +52,7 @@ struct ContentView: View {
                     rectangle
                         .foregroundStyle(.blue)
                 }
-
+                
                 Button {
                     viewModel.didTapButtonTwo(with: .green)
                 } label: {
@@ -55,53 +66,59 @@ struct ContentView: View {
                     rectangle
                         .foregroundStyle(.cyan)
                 }
+                
+                Button {
+                    viewModel.didTapButtonTwo(with: nil)
+                } label: {
+                    rectangle
+                        .foregroundStyle(.gray.opacity(0.5))
+                        .overlay {
+                            Text("None")
+                                .bold()
+                        }
+                }
             }
             
-            Toggle("should mix", isOn: $viewModel.colorsModel.mix)
+            Toggle("should mix", isOn: viewModel.mixedBinging())
             
-            if viewModel.colorsModel.shouldShowColorOne, viewModel.colorsModel.shouldShowColorTwo {
-                if viewModel.colorsModel.mix {
-                    Text("mix")
-                    rectangle
-                        .foregroundStyle(viewModel.colorsModel.color1.mix(with: viewModel.colorsModel.color2, by: 0.5))
-                }
-                else {
-                    HStack {
-                        VStack {
-                            Text("color1")
-                            rectangle
-                                .foregroundStyle(viewModel.colorsModel.color1)
-                        }
-                        
-                        VStack {
-                            Text("color2")
-                            rectangle
-                                .foregroundStyle(viewModel.colorsModel.color2)
-                        }
+            switch viewModel.viewState {
+            case .showBothColors(let color1, let color2):
+                HStack {
+                    VStack {
+                        Text("color1")
+                        rectangle
+                            .foregroundStyle(color1)
+                    }
+                    
+                    VStack {
+                        Text("color2")
+                        rectangle
+                            .foregroundStyle(color2)
                     }
                 }
-            }
-            else if viewModel.colorsModel.shouldShowColorOne {
+            case .showMixedColors(let color1, let color2):
                 VStack {
-                    Text("color1")
+                    Text("mix")
                     rectangle
-                        .foregroundStyle(viewModel.colorsModel.color1)
+                        .foregroundStyle(color1.mix(with: color2, by: 0.5))
                 }
-            }
-            else if viewModel.colorsModel.shouldShowColorTwo {
+            case .showColor(let color, let title):
                 VStack {
-                    Text("color2")
+                    Text(title)
                     rectangle
-                        .foregroundStyle(viewModel.colorsModel.color1)
+                        .foregroundStyle(color)
                 }
+            case .emptyState:
+                Text("Please select your colors")
             }
         }
         .padding()
+        .animation(.default, value: viewModel.viewState)
     }
     
     var rectangle: some View {
         RoundedRectangle(cornerRadius: 5)
-            .frame(width: 100, height: 100)
+            .frame(width: 80, height: 80)
     }
 }
 
