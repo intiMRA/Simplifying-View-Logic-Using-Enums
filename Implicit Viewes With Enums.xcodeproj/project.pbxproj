@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A115C7262C6966FF00364AFA /* Implicit_Viewes_With_EnumsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A115C7252C6966FF00364AFA /* Implicit_Viewes_With_EnumsApp.swift */; };
+		A115C7282C6966FF00364AFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A115C7272C6966FF00364AFA /* ContentView.swift */; };
+		A115C72A2C69670100364AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A115C7292C69670100364AFA /* Assets.xcassets */; };
+		A115C72D2C69670100364AFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A115C72C2C69670100364AFA /* Preview Assets.xcassets */; };
+		A115C7372C69670100364AFA /* Implicit_Viewes_With_EnumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A115C7362C69670100364AFA /* Implicit_Viewes_With_EnumsTests.swift */; };
+		A115C7412C69670100364AFA /* Implicit_Viewes_With_EnumsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A115C7402C69670100364AFA /* Implicit_Viewes_With_EnumsUITests.swift */; };
+		A115C7432C69670100364AFA /* Implicit_Viewes_With_EnumsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A115C7422C69670100364AFA /* Implicit_Viewes_With_EnumsUITestsLaunchTests.swift */; };
+		A115C7502C69673C00364AFA /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A115C74F2C69673C00364AFA /* ContentViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A115C7332C69670100364AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A115C71A2C6966FF00364AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A115C7212C6966FF00364AFA;
+			remoteInfo = "Implicit Viewes With Enums";
+		};
+		A115C73D2C69670100364AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A115C71A2C6966FF00364AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A115C7212C6966FF00364AFA;
+			remoteInfo = "Implicit Viewes With Enums";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A115C7222C6966FF00364AFA /* Implicit Viewes With Enums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Implicit Viewes With Enums.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A115C7252C6966FF00364AFA /* Implicit_Viewes_With_EnumsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Implicit_Viewes_With_EnumsApp.swift; sourceTree = "<group>"; };
+		A115C7272C6966FF00364AFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A115C7292C69670100364AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A115C72C2C69670100364AFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A115C7322C69670100364AFA /* Implicit Viewes With EnumsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Implicit Viewes With EnumsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A115C7362C69670100364AFA /* Implicit_Viewes_With_EnumsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Implicit_Viewes_With_EnumsTests.swift; sourceTree = "<group>"; };
+		A115C73C2C69670100364AFA /* Implicit Viewes With EnumsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Implicit Viewes With EnumsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A115C7402C69670100364AFA /* Implicit_Viewes_With_EnumsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Implicit_Viewes_With_EnumsUITests.swift; sourceTree = "<group>"; };
+		A115C7422C69670100364AFA /* Implicit_Viewes_With_EnumsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Implicit_Viewes_With_EnumsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A115C74F2C69673C00364AFA /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A115C71F2C6966FF00364AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A115C72F2C69670100364AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A115C7392C69670100364AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A115C7192C6966FF00364AFA = {
+			isa = PBXGroup;
+			children = (
+				A115C7242C6966FF00364AFA /* Implicit Viewes With Enums */,
+				A115C7352C69670100364AFA /* Implicit Viewes With EnumsTests */,
+				A115C73F2C69670100364AFA /* Implicit Viewes With EnumsUITests */,
+				A115C7232C6966FF00364AFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A115C7232C6966FF00364AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A115C7222C6966FF00364AFA /* Implicit Viewes With Enums.app */,
+				A115C7322C69670100364AFA /* Implicit Viewes With EnumsTests.xctest */,
+				A115C73C2C69670100364AFA /* Implicit Viewes With EnumsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A115C7242C6966FF00364AFA /* Implicit Viewes With Enums */ = {
+			isa = PBXGroup;
+			children = (
+				A115C7252C6966FF00364AFA /* Implicit_Viewes_With_EnumsApp.swift */,
+				A115C7272C6966FF00364AFA /* ContentView.swift */,
+				A115C7292C69670100364AFA /* Assets.xcassets */,
+				A115C72B2C69670100364AFA /* Preview Content */,
+				A115C74F2C69673C00364AFA /* ContentViewModel.swift */,
+			);
+			path = "Implicit Viewes With Enums";
+			sourceTree = "<group>";
+		};
+		A115C72B2C69670100364AFA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A115C72C2C69670100364AFA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A115C7352C69670100364AFA /* Implicit Viewes With EnumsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A115C7362C69670100364AFA /* Implicit_Viewes_With_EnumsTests.swift */,
+			);
+			path = "Implicit Viewes With EnumsTests";
+			sourceTree = "<group>";
+		};
+		A115C73F2C69670100364AFA /* Implicit Viewes With EnumsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A115C7402C69670100364AFA /* Implicit_Viewes_With_EnumsUITests.swift */,
+				A115C7422C69670100364AFA /* Implicit_Viewes_With_EnumsUITestsLaunchTests.swift */,
+			);
+			path = "Implicit Viewes With EnumsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A115C7212C6966FF00364AFA /* Implicit Viewes With Enums */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A115C7462C69670100364AFA /* Build configuration list for PBXNativeTarget "Implicit Viewes With Enums" */;
+			buildPhases = (
+				A115C71E2C6966FF00364AFA /* Sources */,
+				A115C71F2C6966FF00364AFA /* Frameworks */,
+				A115C7202C6966FF00364AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Implicit Viewes With Enums";
+			productName = "Implicit Viewes With Enums";
+			productReference = A115C7222C6966FF00364AFA /* Implicit Viewes With Enums.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A115C7312C69670100364AFA /* Implicit Viewes With EnumsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A115C7492C69670100364AFA /* Build configuration list for PBXNativeTarget "Implicit Viewes With EnumsTests" */;
+			buildPhases = (
+				A115C72E2C69670100364AFA /* Sources */,
+				A115C72F2C69670100364AFA /* Frameworks */,
+				A115C7302C69670100364AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A115C7342C69670100364AFA /* PBXTargetDependency */,
+			);
+			name = "Implicit Viewes With EnumsTests";
+			productName = "Implicit Viewes With EnumsTests";
+			productReference = A115C7322C69670100364AFA /* Implicit Viewes With EnumsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A115C73B2C69670100364AFA /* Implicit Viewes With EnumsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A115C74C2C69670100364AFA /* Build configuration list for PBXNativeTarget "Implicit Viewes With EnumsUITests" */;
+			buildPhases = (
+				A115C7382C69670100364AFA /* Sources */,
+				A115C7392C69670100364AFA /* Frameworks */,
+				A115C73A2C69670100364AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A115C73E2C69670100364AFA /* PBXTargetDependency */,
+			);
+			name = "Implicit Viewes With EnumsUITests";
+			productName = "Implicit Viewes With EnumsUITests";
+			productReference = A115C73C2C69670100364AFA /* Implicit Viewes With EnumsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A115C71A2C6966FF00364AFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A115C7212C6966FF00364AFA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A115C7312C69670100364AFA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A115C7212C6966FF00364AFA;
+					};
+					A115C73B2C69670100364AFA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A115C7212C6966FF00364AFA;
+					};
+				};
+			};
+			buildConfigurationList = A115C71D2C6966FF00364AFA /* Build configuration list for PBXProject "Implicit Viewes With Enums" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A115C7192C6966FF00364AFA;
+			productRefGroup = A115C7232C6966FF00364AFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A115C7212C6966FF00364AFA /* Implicit Viewes With Enums */,
+				A115C7312C69670100364AFA /* Implicit Viewes With EnumsTests */,
+				A115C73B2C69670100364AFA /* Implicit Viewes With EnumsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A115C7202C6966FF00364AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A115C72D2C69670100364AFA /* Preview Assets.xcassets in Resources */,
+				A115C72A2C69670100364AFA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A115C7302C69670100364AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A115C73A2C69670100364AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A115C71E2C6966FF00364AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A115C7282C6966FF00364AFA /* ContentView.swift in Sources */,
+				A115C7262C6966FF00364AFA /* Implicit_Viewes_With_EnumsApp.swift in Sources */,
+				A115C7502C69673C00364AFA /* ContentViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A115C72E2C69670100364AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A115C7372C69670100364AFA /* Implicit_Viewes_With_EnumsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A115C7382C69670100364AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A115C7412C69670100364AFA /* Implicit_Viewes_With_EnumsUITests.swift in Sources */,
+				A115C7432C69670100364AFA /* Implicit_Viewes_With_EnumsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A115C7342C69670100364AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A115C7212C6966FF00364AFA /* Implicit Viewes With Enums */;
+			targetProxy = A115C7332C69670100364AFA /* PBXContainerItemProxy */;
+		};
+		A115C73E2C69670100364AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A115C7212C6966FF00364AFA /* Implicit Viewes With Enums */;
+			targetProxy = A115C73D2C69670100364AFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A115C7442C69670100364AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A115C7452C69670100364AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A115C7472C69670100364AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Implicit Viewes With Enums/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LocalizationLibraryApp.Implicit-Viewes-With-Enums";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A115C7482C69670100364AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Implicit Viewes With Enums/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LocalizationLibraryApp.Implicit-Viewes-With-Enums";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A115C74A2C69670100364AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LocalizationLibraryApp.Implicit-Viewes-With-EnumsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Implicit Viewes With Enums.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Implicit Viewes With Enums";
+			};
+			name = Debug;
+		};
+		A115C74B2C69670100364AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LocalizationLibraryApp.Implicit-Viewes-With-EnumsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Implicit Viewes With Enums.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Implicit Viewes With Enums";
+			};
+			name = Release;
+		};
+		A115C74D2C69670100364AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LocalizationLibraryApp.Implicit-Viewes-With-EnumsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Implicit Viewes With Enums";
+			};
+			name = Debug;
+		};
+		A115C74E2C69670100364AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LocalizationLibraryApp.Implicit-Viewes-With-EnumsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Implicit Viewes With Enums";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A115C71D2C6966FF00364AFA /* Build configuration list for PBXProject "Implicit Viewes With Enums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A115C7442C69670100364AFA /* Debug */,
+				A115C7452C69670100364AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A115C7462C69670100364AFA /* Build configuration list for PBXNativeTarget "Implicit Viewes With Enums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A115C7472C69670100364AFA /* Debug */,
+				A115C7482C69670100364AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A115C7492C69670100364AFA /* Build configuration list for PBXNativeTarget "Implicit Viewes With EnumsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A115C74A2C69670100364AFA /* Debug */,
+				A115C74B2C69670100364AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A115C74C2C69670100364AFA /* Build configuration list for PBXNativeTarget "Implicit Viewes With EnumsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A115C74D2C69670100364AFA /* Debug */,
+				A115C74E2C69670100364AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A115C71A2C6966FF00364AFA /* Project object */;
+}
